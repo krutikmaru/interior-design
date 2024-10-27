@@ -3,7 +3,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full h-screen px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] max-h-[800px] relative mx-auto">
+    <div className="w-full h-screen px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] max-h-[800px] relative mx-auto overflow-x-hidden">
       <Background />
       <Heading />
       <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-[0px] md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
@@ -37,7 +37,7 @@ function Background() {
 
 function Heading() {
   return (
-    <div className="flex flex-col items-center -space-y-5 md:-space-y-7">
+    <div className="flex flex-col justify-center items-center text-center -space-y-5 md:-space-y-7">
       <h1 className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light text-6xl md:text-9xl">
         Reimagine
       </h1>
