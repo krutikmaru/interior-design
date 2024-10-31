@@ -37,13 +37,18 @@ function Background() {
 
 function Heading() {
   return (
-    <div className="flex flex-col justify-center items-center text-center -space-y-5 md:-space-y-7">
-      <h1 className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
-        Reimagine
-      </h1>
-      <h1 className="bg-gradient-to-r from-gray-300 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
-        Your <br className="flex md:hidden" /> Space
-      </h1>
+    <div className="flex flex-col justify-center items-center space-y-6">
+      <div className="flex flex-col justify-center items-center text-center -space-y-5 md:-space-y-7">
+        <h1 className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
+          Reimagine
+        </h1>
+        <h1 className="bg-gradient-to-r from-gray-300 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
+          Your <br className="flex md:hidden" /> Space
+        </h1>
+      </div>
+      <button className="text-white bg-white/20 backdrop-blur-md font-medium tracking-[-0.05em] px-6 py-3 z-10 rounded-full flex md:hidden">
+        Get Started
+      </button>
     </div>
   );
 }

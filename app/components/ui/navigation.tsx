@@ -8,9 +8,12 @@ function Navigation() {
   return (
     <>
       <div className="w-full h-16 fixed top-0 z-50 backdrop-blur-xl flex justify-between items-center px-11 text-white border-b-[1px] border-border-primary">
-        <div className="w-fit md:w-[100px]">LOGO</div>
+        <Link href="/" className="w-fit md:w-[100px]">
+          LOGO
+        </Link>
         <div className="hidden md:flex space-x-6 items-center tracking-tight">
-          <Link href="#">Projects</Link>
+          <Link href="/projects">Projects</Link>
+          <Link href="/services">Services</Link>
           <Link href="#">About</Link>
           <Link href="#">Contact</Link>
         </div>

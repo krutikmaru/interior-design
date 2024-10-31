@@ -4,6 +4,7 @@ import Offering from "./(ui)/offering";
 import ScrollVideo from "./(ui)/scroll-video";
 import Announcement from "./(ui)/announcement";
 import Services from "./(ui)/services";
+import Projects from "./(ui)/projects";
 
 export const metadata: Metadata = {
   title: "Interior Design",
@@ -18,6 +19,7 @@ export default function Home() {
       <Offering />
       <Announcement />
       <Services />
+      <Projects />
     </div>
   );
 }
