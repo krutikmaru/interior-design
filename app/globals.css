@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.image-mask {
+  -webkit-mask-image: linear-gradient(transparent, black);
+  mask-image: linear-gradient(transparent, black);
+}

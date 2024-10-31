@@ -11,12 +11,16 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
+      maskImage: {
+        "gradient-mask": "linear-gradient(black, transparent)",
+      },
       boxShadow: {
         "2xl": "0 0px 25px 0px rgb(0 0 0 / 0.25)",
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "label-primary": "#CCCCCC",
       },
     },
   },

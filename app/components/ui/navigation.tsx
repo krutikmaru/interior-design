@@ -7,7 +7,7 @@ function Navigation() {
   const [isOverlayOpen, setIsOverlayOpen] = useState<boolean>(false);
   return (
     <>
-      <div className="w-full h-16 fixed top-0 backdrop-blur-xl flex justify-between items-center px-11 text-white">
+      <div className="w-full h-16 fixed top-0 z-50 backdrop-blur-xl flex justify-between items-center px-11 text-white">
         <div className="w-fit md:w-[100px]">LOGO</div>
         <div className="hidden md:flex space-x-6 items-center tracking-tight">
           <Link href="#">Projects</Link>

@@ -3,10 +3,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full h-screen px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] max-h-[800px] relative mx-auto overflow-x-hidden">
+    <div className="w-full h-screen overflow-x-hidden px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] mx-auto">
       <Background />
       <Heading />
-      <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-[0px] md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
+      <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-0 md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
         <Image
           src="/images/hero-card.avif"
           className="absolute object-cover"
