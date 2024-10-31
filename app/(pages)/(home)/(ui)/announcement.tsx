@@ -4,7 +4,7 @@ import React from "react";
 
 function Announcement() {
   return (
-    <div className="flex w-full p-16 justify-center items-start space-x-11">
+    <div className="flex w-full p-11 md:p-16 justify-center items-start flex-col-reverse md:flex-row space-x-0 md:space-x-11">
       {/* Details */}
       <div className="w-full space-y-6">
         <div className="flex flex-col space-y-3">
@@ -24,7 +24,7 @@ function Announcement() {
         </div>
         <Button>Learn More</Button>
       </div>
-      <div className="h-[350px] md:h-[450px] w-full rounded-xl overflow-hidden group">
+      <div className="h-[350px] md:h-[450px] w-full rounded-xl overflow-hidden group mb-6 md:mb-0">
         <div className="w-full h-full relative scale-105 group-hover:scale-100 transition-transform ease-in-out duration-300">
           <Image
             src="/images/announcement.avif"

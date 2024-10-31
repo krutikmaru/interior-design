@@ -3,6 +3,7 @@ import Hero from "./(ui)/hero";
 import Offering from "./(ui)/offering";
 import ScrollVideo from "./(ui)/scroll-video";
 import Announcement from "./(ui)/announcement";
+import Services from "./(ui)/services";
 
 export const metadata: Metadata = {
   title: "Interior Design",
@@ -16,6 +17,7 @@ export default function Home() {
       <ScrollVideo />
       <Offering />
       <Announcement />
+      <Services />
     </div>
   );
 }

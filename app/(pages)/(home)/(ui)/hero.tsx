@@ -6,7 +6,7 @@ function Hero() {
     <div className="w-full h-screen overflow-x-hidden px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] mx-auto">
       <Background />
       <Heading />
-      <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-0 md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
+      <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-16 md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
         <Image
           src="/images/hero-card.avif"
           className="absolute object-cover"
@@ -42,7 +42,7 @@ function Heading() {
         Reimagine
       </h1>
       <h1 className="bg-gradient-to-r from-gray-300 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
-        Your Space
+        Your <br className="flex md:hidden" /> Space
       </h1>
     </div>
   );
@@ -79,7 +79,7 @@ function Actions() {
   }
 
   return (
-    <div className="w-full justify-between items-center px-11 hidden md:flex">
+    <div className="w-full justify-between items-center px-11 hidden md:flex z-20">
       <Achievements />
       <CTA />
     </div>

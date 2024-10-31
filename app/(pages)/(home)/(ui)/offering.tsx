@@ -12,7 +12,7 @@ function Offering() {
             Expert Interior Design Solutions
           </h2>
         </div>
-        <p className="w-full md:w-[800px] text-lg text-label-primary">
+        <p className="w-full md:w-[650px] text-lg text-label-primary">
           We create designs that mirror your personality, all the while
           increasing comfort and usability. Whether it&apos;s revitalizing a
           solitary room or transforming your whole living area, our proficiency
