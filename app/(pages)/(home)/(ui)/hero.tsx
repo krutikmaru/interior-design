@@ -38,7 +38,7 @@ function Background() {
 function Heading() {
   return (
     <div className="flex flex-col justify-center items-center text-center -space-y-5 md:-space-y-7">
-      <h1 className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light text-6xl md:text-9xl">
+      <h1 className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
         Reimagine
       </h1>
       <h1 className="bg-gradient-to-r from-gray-300 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.07em] font-light z-10 text-6xl md:text-9xl">
