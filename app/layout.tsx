@@ -24,9 +24,9 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased bg-black `}>
         <Navigation />
-        {children}
+        <div className="w-full max-w-[1900px] mx-auto">{children}</div>
       </body>
     </html>
   );

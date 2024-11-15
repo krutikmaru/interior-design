@@ -8,7 +8,7 @@ function Offering() {
       <div className="flex flex-col space-y-3">
         <div className="flex flex-col">
           <span className="text-lg text-label-primary">We offer</span>
-          <h2 className="text-4xl md:text-6xl tracking-[-0.04em] ">
+          <h2 className="text-4xl md:text-6xl tracking-[-0.04em] text-white">
             Expert Interior Design Solutions
           </h2>
         </div>

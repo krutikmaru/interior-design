@@ -31,7 +31,7 @@ function ScrollVideo() {
           alt="What we offer"
         />
         {/* Overlay */}
-        <div className="absolute w-full bottom-16 left-0 md:left-16 flex flex-col space-y-3 px-11 md:px-0">
+        <div className="absolute w-full bottom-16 left-0 md:left-16 flex flex-col space-y-3 px-11 md:px-0 text-white">
           <h2 className="text-4xl md:text-6xl tracking-[-0.04em] w-full">
             World Class Interior
           </h2>

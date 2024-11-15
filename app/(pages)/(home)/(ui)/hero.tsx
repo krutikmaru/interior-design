@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-
+import { ArrowRight } from "lucide-react";
 function Hero() {
   return (
-    <div className="w-full h-screen overflow-x-hidden px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] mx-auto">
+    <div className="w-full h-screen max-h-[800px] overflow-x-hidden px-11 pb-11 pt-40 md:pb-16 md:pt-28 flex flex-col justify-start md:justify-between items-center max-w-[1900px] mx-auto">
       <Background />
       <Heading />
       <div className="w-[200px] h-[300px] md:w-[330px] md:h-[470px] absolute bg-neutral-700 bottom-16 md:bottom-[-85px] rotate-12 rounded-xl overflow-hidden">
@@ -47,7 +47,7 @@ function Heading() {
         </h1>
       </div>
       <button className="text-white bg-white/20 backdrop-blur-md font-medium tracking-[-0.05em] px-6 py-3 z-10 rounded-full flex md:hidden">
-        Get Started
+        Get Started <ArrowRight className="w-4 h-4 ml-4" />
       </button>
     </div>
   );
@@ -63,7 +63,7 @@ function Actions() {
           <div className="w-11 h-11 bg-neutral-600 border-[1px] border-neutral-400 rounded-full"></div>
         </div>
         <p className="w-[200px] text-[#A6A6A6] tracking-[-0.05em]">
-          More than 1000+ homes have been shaped by Haven Craft
+          More than 1000+ homes have been shaped by Shukla Enterprises
         </p>
       </div>
     );
@@ -76,8 +76,8 @@ function Actions() {
           The intellect crafts the stunning, the soul shapes the residence, The
           Sweet Home
         </p>
-        <button className="text-black bg-white font-medium tracking-[-0.05em] px-6 py-3 rounded-full shadow-2xl shadow-white">
-          Get Started
+        <button className="text-black bg-white font-medium tracking-[-0.05em] px-6 py-3 rounded-full shadow-2xl shadow-white flex items-center">
+          Get Started <ArrowRight className="w-5 h-5 ml-4" />
         </button>
       </div>
     );

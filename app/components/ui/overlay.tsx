@@ -1,14 +1,13 @@
 "use client";
+import React, { useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 export interface OverlayProps {
   isOpen: boolean;
   onClose: () => void;
   children: React.ReactNode;
-  backgroundColor?: string;
-  opacity?: number;
   zIndex?: number;
 }
-
-import React, { useEffect } from "react";
 
 const Overlay: React.FC<OverlayProps> = ({
   isOpen,
@@ -36,15 +35,21 @@ const Overlay: React.FC<OverlayProps> = ({
     };
   }, [isOpen, onClose]);
 
-  if (!isOpen) return null;
-
   return (
-    <div
-      className={`fixed inset-0 bg-black bg-opacity-80 backdrop-blur-md flex items-center justify-center`}
-      style={{ zIndex }}
-    >
-      {children}
-    </div>
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          className="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-md flex items-center justify-center"
+          style={{ zIndex }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.1 }}
+        >
+          {children}
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 };
 

@@ -1,4 +1,5 @@
 import Button from "@/app/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -10,7 +11,7 @@ function Announcement() {
         <div className="flex flex-col space-y-3">
           <div className="flex flex-col">
             <span className="text-lg text-label-primary">All New</span>
-            <h2 className="text-4xl md:text-6xl tracking-[-0.04em] ">
+            <h2 className="text-4xl md:text-6xl tracking-[-0.04em] text-white">
               Introducing Home Scape VR
             </h2>
           </div>
@@ -22,7 +23,10 @@ function Announcement() {
             visualize layout, decor, and ambiance in remarkable detail.
           </p>
         </div>
-        <Button>Learn More</Button>
+        <Button>
+          Learn More
+          <ArrowRight className="w-5 h-5 ml-4" />
+        </Button>
       </div>
       <div className="h-[350px] md:h-[450px] w-full rounded-xl overflow-hidden group mb-6 md:mb-0">
         <div className="w-full h-full relative scale-105 group-hover:scale-100 transition-transform ease-in-out duration-300">
