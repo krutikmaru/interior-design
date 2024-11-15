@@ -1,5 +1,4 @@
 import Button from "@/app/components/ui/button";
-import DisplayCard from "@/app/components/ui/display-card";
 import React from "react";
 
 function Projects() {
