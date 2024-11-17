@@ -15,7 +15,7 @@ function Navigation() {
         <div className="hidden md:flex space-x-6 items-center tracking-tight">
           <Link href="/projects">Projects</Link>
           <Link href="/services">Services</Link>
-          <Link href="#">About</Link>
+          <Link href="/about">About</Link>
           <Link href="#">Contact</Link>
         </div>
         <div className="w-[100px] hidden md:flex  space-x-3">

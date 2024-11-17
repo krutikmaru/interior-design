@@ -1,4 +1,4 @@
-import data from "@/app/database/services";
+import data from "@/database/services";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import React from "react";

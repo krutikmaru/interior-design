@@ -1,4 +1,4 @@
-import { DisplayCardAdaptiveProps } from "@/app/types/types";
+import { DisplayCardAdaptiveProps } from "@/types/types";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

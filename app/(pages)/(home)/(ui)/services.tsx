@@ -1,7 +1,7 @@
-import Button from "@/app/components/ui/button";
-import DisplayCard from "@/app/components/ui/display-card";
-import data from "@/app/database/services";
-import { Service } from "@/app/types/types";
+import Button from "@/components/ui/button";
+import DisplayCard from "@/components/ui/display-card";
+import data from "@/database/services";
+import { Service } from "@/types/types";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 

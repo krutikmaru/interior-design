@@ -1,4 +1,4 @@
-import { DisplayCardProps } from "@/app/types/types";
+import { DisplayCardProps } from "@/types/types";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

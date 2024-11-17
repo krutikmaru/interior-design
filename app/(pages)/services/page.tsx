@@ -1,7 +1,7 @@
-import DisplayCardAdaptive from "@/app/components/ui/display-card-adaptive";
+import DisplayCardAdaptive from "@/components/ui/display-card-adaptive";
 import React from "react";
-import data from "@/app/database/services";
-import { Service } from "@/app/types/types";
+import data from "@/database/services";
+import { Service } from "@/types/types";
 
 async function page() {
   return (

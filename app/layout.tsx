@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Navigation from "@/app/components/ui/navigation";
+import Navigation from "@/components/ui/navigation";
 import Head from "next/head";
+import Footer from "@/components/ui/footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased bg-black `}>
         <Navigation />
         <div className="w-full max-w-[1900px] mx-auto">{children}</div>
+        <Footer />
       </body>
     </html>
   );
