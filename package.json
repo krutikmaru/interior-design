@@ -15,6 +15,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.10",
+    "google-map-react": "^2.2.1",
     "lucide-react": "^0.454.0",
     "next": "15.0.1",
     "react": "19.0.0-rc-69d4b800-20241021",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
+    "@types/google-map-react": "^2.1.10",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

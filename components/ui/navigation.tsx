@@ -16,7 +16,7 @@ function Navigation() {
           <Link href="/projects">Projects</Link>
           <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
-          <Link href="#">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </div>
         <div className="w-[100px] hidden md:flex  space-x-3">
           <Link href={"mailto:enterprisesshukla5@gmail.com "}>
