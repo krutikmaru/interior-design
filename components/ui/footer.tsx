@@ -62,22 +62,22 @@ function Actionables() {
       </div>
       <div className="flex flex-col justify-start  items-center space-y-1 md:space-y-3 font-bold text-2xl md:text-4xl tracking-[-0.03em]">
         <Link
-          href={"#"}
+          href={"https://wa.me/+919819264941"}
           className="text-label-secondary hover:text-label-primary transition-all ease-in-out duration-200 "
         >
           WHATSAPP
         </Link>
         <Link
-          href={"#"}
+          href={"tel:+919820270909"}
           className="text-label-secondary hover:text-label-primary transition-all ease-in-out duration-200 "
         >
-          INSTAGRAM
+          PHONE
         </Link>
         <Link
-          href={"#"}
+          href={"mailto:enterprisesshukla5@gmail.com"}
           className="text-label-secondary hover:text-label-primary transition-all ease-in-out duration-200 "
         >
-          LINKEDIN
+          EMAIL
         </Link>
       </div>
     </div>
