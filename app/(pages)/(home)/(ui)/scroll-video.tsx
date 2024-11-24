@@ -25,7 +25,7 @@ function ScrollVideo() {
         style={{ scale }}
       >
         <Image
-          src="/images/offering.avif"
+          src="/images/general/9.jpg"
           className="object-cover"
           fill
           alt="What we offer"
@@ -33,15 +33,15 @@ function ScrollVideo() {
         {/* Overlay */}
         <div className="absolute w-full bottom-16 left-0 md:left-16 flex flex-col space-y-3 px-11 md:px-0 text-white">
           <h2 className="text-4xl md:text-6xl tracking-[-0.04em] w-full">
-            World Class Interior
+            World-Class Pop and Fall Ceilings
           </h2>
           <p className="w-full md:w-[800px] text-base sm:text-lg">
-            From residential sanctuaries to dynamic commercial spaces, our work
-            embodies sophistication, functionality, and a keen attention to
-            detail that transforms each space into a masterpiece. With our
-            approach, we create environments that not only look stunning but
-            also enhance the way you live, work, and experience your
-            surroundings.
+            From stunning residential ceilings to sophisticated commercial
+            designs, we specialize in creating pop and fall ceilings that
+            redefine elegance and functionality. With meticulous attention to
+            detail, our work transforms spaces into breathtaking environments,
+            blending modern aesthetics with innovative craftsmanship to enhance
+            your living and working experiences.
           </p>
         </div>
       </motion.div>
