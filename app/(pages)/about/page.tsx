@@ -2,7 +2,7 @@ import React from "react";
 import Ticker from "./(ui)/ticker";
 import About from "./(ui)/about";
 import FAQs from "./(ui)/faqs";
-import TrustedBy from "./(ui)/trusted-by";
+// import TrustedBy from "./(ui)/trusted-by";
 
 function page() {
   return (
@@ -19,7 +19,7 @@ function page() {
       <Ticker />
       <div className="w-full p-11 md:px-16 md:py-11 space-y-16">
         <About />
-        <TrustedBy />
+        {/* <TrustedBy /> */}
         <FAQs />
       </div>
     </div>

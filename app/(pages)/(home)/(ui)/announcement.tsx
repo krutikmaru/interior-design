@@ -24,7 +24,7 @@ function Announcement() {
             reflect your vision with precision and finesse.
           </p>
         </div>
-        <Button>
+        <Button href="/contact">
           Learn More
           <ArrowRight className="w-5 h-5 ml-4" />
         </Button>

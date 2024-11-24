@@ -8,24 +8,22 @@ function About() {
       </h2>
       <div className="w-full text-label-primary text-lg space-y-6">
         <p>
-          Founded in 1998, Shukla Enterprises has spent over two decades shaping
-          beautiful, functional spaces that captivate and inspire. Our journey
-          has been marked by creativity, dedication, and a relentless pursuit of
-          excellence, earning us 8 distinguished awards in the field of interior
-          design, including two highly prestigious accolades that highlight our
-          commitment to quality and innovation.
+          Established in 1998, Shukla Enterprises has over 25 years of
+          experience as a trusted POP contractor firm, transforming ceilings
+          into stunning works of art. With projects spanning more than 15
+          states, we have left our mark on bungalows, showrooms, hospitals,
+          offices, lobbies, and more, delivering excellence at every turn.
         </p>
 
         <p>
-          With each project, we bring a wealth of expertise and a passion for
-          creating interiors that reflect our clients&apos; unique stories. Our
-          comprehensive design services cover everything from concept to
-          completion, with offerings like immersive VR walkthroughs, detailed
-          space planning, and tailored renovations. At Haven Craft, we are
-          driven by the belief that spaces should be more than beautiful—they
-          should enrich the lives of those who inhabit them. Join us on this
-          journey as we continue to craft world-class interiors that stand the
-          test of time.
+          Our legacy is built on professional expertise, precision
+          craftsmanship, and a dedication to creating ceilings that blend
+          functionality with beauty. Whether it&apos;s enhancing a commercial
+          space or adding character to a residential property, our tailored POP
+          solutions are designed to meet your unique needs and vision. With
+          Shukla Enterprises, you&apos;re choosing a partner committed to
+          elevating spaces through innovative and enduring ceiling designs. Join
+          us as we continue shaping environments that inspire and impress.
         </p>
       </div>
     </div>

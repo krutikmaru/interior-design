@@ -65,9 +65,10 @@ function page() {
         </div>
         <div className="w-full h-full rounded-lg overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27705.90704677998!2d72.85647936633715!3d19.298804599477105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b03cee3adf51%3A0xdb2a32c172e919a5!2sStar%20Premier%20-1A%20Co-operative%20Housing%20Society%20Ltd!5e0!3m2!1sen!2sin!4v1731877792620!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15092.13383709131!2d72.81113330106768!3d18.974129665350652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce677b61becf%3A0xe2c194313c0be737!2sShirin%20Apartment!5e0!3m2!1sen!2sin!4v1732473756490!5m2!1sen!2sin"
             className="w-full h-[550px]"
             style={{ border: 0 }}
+            // style="border:0;"
             // allowfullscreen=""
             loading="lazy"
             // referrerpolicy="no-referrer-when-downgrade"

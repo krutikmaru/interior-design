@@ -14,8 +14,9 @@ function Navigation() {
           <Image src="/shukla-logo.svg" alt="Logo" width={20} height={20} />
         </Link>
         <div className="hidden md:flex space-x-6 items-center tracking-tight">
-          <Link href="/projects">Projects</Link>
-          <Link href="/services">Services</Link>
+          {/* <Link href="/projects">Projects</Link>
+          <Link href="/services">Services</Link> */}
+          <Link href="/gallery">Gallery</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </div>
@@ -43,7 +44,7 @@ function Navigation() {
             <X />
           </button>
           <div className="text-white tracking-tight flex flex-col text-4xl md:text-6xl -space-y-4 md:-space-y-7">
-            <Link
+            {/* <Link
               onClick={() => setIsOverlayOpen(false)}
               href="/projects"
               className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.05em]"
@@ -56,7 +57,7 @@ function Navigation() {
               className="bg-gradient-to-r from-gray-400 to-white inline-block text-transparent bg-clip-text p-3 tracking-[-0.05em]"
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               onClick={() => setIsOverlayOpen(false)}
               href="/about"

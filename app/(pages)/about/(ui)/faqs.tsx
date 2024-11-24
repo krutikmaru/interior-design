@@ -9,35 +9,34 @@ import {
 function FAQs() {
   const faqs = [
     {
-      question: "What is the first step in the design process?",
+      question: "What is the first step in your POP ceiling process?",
       answer:
-        "The first step is a consultation where we discuss your vision, needs, and budget. From there, we create a design plan tailored specifically to you.",
+        "The first step is an initial consultation where we assess your space, discuss your design preferences, and understand your requirements. From there, we provide a customized plan for your POP ceiling project.",
     },
     {
-      question: "How long does an interior design project take?",
+      question: "How long does a POP ceiling project take?",
       answer:
-        "Timelines vary depending on the project’s scope. Typically, a full room design takes about 4-8 weeks, while larger projects may extend to several months.",
+        "Timelines depend on the size and complexity of the project. Typically, a single room POP ceiling takes about 1-2 weeks, while larger projects like lobbies or offices may take several weeks.",
     },
     {
-      question: "What’s included in your design fees?",
+      question: "What services are included in your POP solutions?",
       answer:
-        "Our design fees cover initial consultation, design planning, material selection, and project management. We’ll provide a breakdown during our initial consultation.",
+        "Our services include consultation, design planning, material selection, skilled installation, and project management. We ensure a seamless process from start to finish.",
     },
     {
-      question: "Do you offer virtual design services?",
+      question: "Do you work on both residential and commercial spaces?",
       answer:
-        "Yes, we offer virtual consultations and remote design packages for clients who prefer or require an online experience.",
+        "Yes, we specialize in POP ceiling solutions for a variety of spaces, including bungalows, showrooms, hospitals, offices, and building lobbies.",
     },
     {
-      question:
-        "Will I be able to see a preview of the design before it’s finalized?",
+      question: "Can I see the design before installation begins?",
       answer:
-        "Yes, we offer 3D renderings and digital visuals so you can envision the final look. Adjustments can be made before implementation to ensure satisfaction.",
+        "Absolutely! We provide detailed design plans and visual references to help you envision your ceiling’s final look. Adjustments can be made before we start the installation process.",
     },
     {
-      question: "Do you offer post-project support?",
+      question: "Do you offer support after project completion?",
       answer:
-        "Yes, we offer post-project support to address any questions or minor adjustments after completion, ensuring that you’re completely satisfied with your new space.",
+        "Yes, we provide post-project support to ensure your satisfaction. Whether it’s addressing concerns or making minor adjustments, we’re here to help even after the project is complete.",
     },
   ];
   return (

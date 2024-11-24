@@ -3,7 +3,7 @@ import Hero from "./(ui)/hero";
 import Offering from "./(ui)/offering";
 import ScrollVideo from "./(ui)/scroll-video";
 import Announcement from "./(ui)/announcement";
-import Services from "./(ui)/services";
+// import Services from "./(ui)/services";
 // import Projects from "./(ui)/projects";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function Home() {
       <ScrollVideo />
       <Offering />
       <Announcement />
-      <Services />
+      {/* <Services /> */}
       {/* <Projects /> */}
     </div>
   );
