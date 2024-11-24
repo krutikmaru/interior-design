@@ -39,25 +39,25 @@ const data: Service[] = [
     slug: "renovation-remodeling",
     cover: "/images/services/renovation-and-remodeling.avif",
   },
-  {
-    documentId: "b9r7d260zh02afs8savdbove",
-    title: "VR Walkthrough",
-    shortDescription:
-      "An immersive VR tour of your design to experience it firsthand before completion.",
-    introduction:
-      "With HomeScape VR, experience your redesigned space in a way that feels remarkably real. This service utilizes virtual reality technology to offer a 360-degree, immersive walkthrough, allowing you to explore each room, adjust elements, and get a tangible sense of the layout and ambiance. It’s like previewing your finished space before construction even begins.\n\nHomeScape VR provides a deeper level of engagement, letting you visualize the design from every angle. Ideal for clients who want to experience the look and feel of their future home or office, this feature helps you make confident decisions and ensures the final design aligns perfectly with your vision.",
-    badge: "Newly Added",
-    estimatedTime: "1-2 weeks",
-    clientSatisfaction: "96%",
-    rating: "4.8/5",
-    cost: "USD 2,000 - 5,000",
-    content:
-      "#### Future of Interior Design with VR\n\nWe are proud to offer our VR Walkthrough service, a revolutionary way to visualize your future spaces before construction begins. Utilizing cutting-edge Virtual Reality technology, this immersive experience allows clients to explore their designs in a fully interactive environment. By stepping into your future home or office, you can see, feel, and understand the space like never before.\n\n#### Features\nWith Home Scape VR, designing your dream space is no longer limited to imagination. Step into your vision and shape it with certainty, knowing exactly what to expect in your future home or office.\n1. **Realistic Visualization**: Our VR technology creates lifelike representations of your design, allowing you to experience every detail, from textures to lighting.\n2. **Interactive Exploration**: Walk through your space, adjust furniture arrangements, and change color schemes in real-time, empowering you to make informed design decisions.\n3. **Immediate Feedback**: Share your thoughts as you navigate the VR environment, enabling us to make quick adjustments that reflect your vision accurately.\n\n#### Process\nExperience your future space with an immersive VR process that lets you walk through and refine your design before it's built.\n1. **Consultation**: We begin with a comprehensive consultation to understand your preferences, lifestyle, and the functionality you desire. This stage is crucial for tailoring the VR experience to reflect your unique style.\n2. **3D Modeling**: Once we gather your insights, our team creates detailed 3D models of your space. These models serve as the foundation for your VR experience, incorporating all aspects of the design, including layout, colors, and furnishings.\n3. **Immersive VR Experience**: Using advanced VR technology, we present you with a fully immersive environment where you can explore the space. This interactive walkthrough allows you to experience the flow and functionality of your design.\n4. **Design Refinement**: As you provide feedback during the VR walkthrough, we make real-time adjustments. This collaborative process ensures that your final design is precisely aligned with your vision.\n\n#### Navigate Your New Reality\nOur VR Walkthrough service redefines the design process, providing clients with a unique opportunity to interact with their future spaces. At Haven Craft, we are dedicated to transforming your vision into reality through innovative technology and personalized service. Experience the future of design with us!",
-    createdAt: "2024-11-01",
+  // {
+  //   documentId: "b9r7d260zh02afs8savdbove",
+  //   title: "VR Walkthrough",
+  //   shortDescription:
+  //     "An immersive VR tour of your design to experience it firsthand before completion.",
+  //   introduction:
+  //     "With HomeScape VR, experience your redesigned space in a way that feels remarkably real. This service utilizes virtual reality technology to offer a 360-degree, immersive walkthrough, allowing you to explore each room, adjust elements, and get a tangible sense of the layout and ambiance. It’s like previewing your finished space before construction even begins.\n\nHomeScape VR provides a deeper level of engagement, letting you visualize the design from every angle. Ideal for clients who want to experience the look and feel of their future home or office, this feature helps you make confident decisions and ensures the final design aligns perfectly with your vision.",
+  //   badge: "Newly Added",
+  //   estimatedTime: "1-2 weeks",
+  //   clientSatisfaction: "96%",
+  //   rating: "4.8/5",
+  //   cost: "USD 2,000 - 5,000",
+  //   content:
+  //     "#### Future of Interior Design with VR\n\nWe are proud to offer our VR Walkthrough service, a revolutionary way to visualize your future spaces before construction begins. Utilizing cutting-edge Virtual Reality technology, this immersive experience allows clients to explore their designs in a fully interactive environment. By stepping into your future home or office, you can see, feel, and understand the space like never before.\n\n#### Features\nWith Home Scape VR, designing your dream space is no longer limited to imagination. Step into your vision and shape it with certainty, knowing exactly what to expect in your future home or office.\n1. **Realistic Visualization**: Our VR technology creates lifelike representations of your design, allowing you to experience every detail, from textures to lighting.\n2. **Interactive Exploration**: Walk through your space, adjust furniture arrangements, and change color schemes in real-time, empowering you to make informed design decisions.\n3. **Immediate Feedback**: Share your thoughts as you navigate the VR environment, enabling us to make quick adjustments that reflect your vision accurately.\n\n#### Process\nExperience your future space with an immersive VR process that lets you walk through and refine your design before it's built.\n1. **Consultation**: We begin with a comprehensive consultation to understand your preferences, lifestyle, and the functionality you desire. This stage is crucial for tailoring the VR experience to reflect your unique style.\n2. **3D Modeling**: Once we gather your insights, our team creates detailed 3D models of your space. These models serve as the foundation for your VR experience, incorporating all aspects of the design, including layout, colors, and furnishings.\n3. **Immersive VR Experience**: Using advanced VR technology, we present you with a fully immersive environment where you can explore the space. This interactive walkthrough allows you to experience the flow and functionality of your design.\n4. **Design Refinement**: As you provide feedback during the VR walkthrough, we make real-time adjustments. This collaborative process ensures that your final design is precisely aligned with your vision.\n\n#### Navigate Your New Reality\nOur VR Walkthrough service redefines the design process, providing clients with a unique opportunity to interact with their future spaces. At Haven Craft, we are dedicated to transforming your vision into reality through innovative technology and personalized service. Experience the future of design with us!",
+  //   createdAt: "2024-11-01",
 
-    slug: "vr-walkthrough",
-    cover: "/images/services/vr-walkthrough.webp",
-  },
+  //   slug: "vr-walkthrough",
+  //   cover: "/images/services/vr-walkthrough.webp",
+  // },
   {
     documentId: "f4baq5mqwrgibr6msgkuvo3v",
     title: "Residential Interior Design",
