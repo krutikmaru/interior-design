@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "./marquee";
 import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -31,9 +32,7 @@ function Ticker() {
 function Actionables() {
   return (
     <div className="w-full flex flex-col md:flex-row space-y-12 md:space-y-0 items-center justify-between text-white">
-      <div className="uppercase font-bold text-center">
-        Shukla <br /> Enterprises
-      </div>
+      <Image src="/shukla-dark.png" alt="Logo" width={200} height={20} />
       <div className="flex flex-col  justify-start items-center space-y-1 md:space-y-3 font-bold text-2xl md:text-4xl tracking-[-0.03em]">
         <Link
           href={"/"}

@@ -11,7 +11,7 @@ function Navigation() {
     <>
       <div className="w-full h-16 fixed top-0 z-50 backdrop-blur-xl flex justify-between items-center px-11 text-white border-b-[1px] border-border-primary">
         <Link href="/" className="w-fit md:w-[100px]">
-          <Image src="/shukla-logo.svg" alt="Logo" width={20} height={20} />
+          <Image src="/shukla-dark.png" alt="Logo" width={100} height={20} />
         </Link>
         <div className="hidden md:flex space-x-6 items-center tracking-tight">
           {/* <Link href="/projects">Projects</Link> */}
