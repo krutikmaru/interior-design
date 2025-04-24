@@ -102,10 +102,10 @@ function Actions() {
           Sweet Home
         </p>
         <Link
-          href="/contact"
+          href="/ProjectPortfolio.pdf"
           className="text-black bg-white font-medium tracking-[-0.05em] px-6 py-3 rounded-full shadow-2xl shadow-white flex items-center"
         >
-          Get Started <ArrowRight className="w-5 h-5 ml-4" />
+          Project portfolio <ArrowRight className="w-5 h-5 ml-4" />
         </Link>
       </div>
     );
