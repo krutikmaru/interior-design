@@ -48,10 +48,10 @@ function Heading() {
         </h1>
       </div>
       <Link
-        href={"/contact"}
+        href="/ProjectPortfolio.pdf"
         className="text-white bg-white/20  backdrop-blur-md font-medium tracking-[-0.05em] px-6 py-3 z-10 rounded-full flex md:hidden"
       >
-        Get Started <ArrowRight className="w-4 h-4 ml-4" />
+        Project portfolio <ArrowRight className="w-4 h-4 ml-4" />
       </Link>
     </div>
   );
