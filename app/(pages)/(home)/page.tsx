@@ -4,6 +4,7 @@ import Offering from "./(ui)/offering";
 import ScrollVideo from "./(ui)/scroll-video";
 import Announcement from "./(ui)/announcement";
 import Services from "./(ui)/services";
+import Clients from "./(ui)/clients";
 // import Projects from "./(ui)/projects";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <ScrollVideo />
       <Offering />
+      <Clients />
       <Announcement />
       <Services />
       {/* <Projects /> */}
